@@ -11,8 +11,8 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&left_encoder { resolution = <1>; };
-&right_encoder { resolution = <1>; };
+&left_encoder { resolution = <0.5>; };
+&right_encoder { resolution = <0.5>; };
 
 #define BASE 0
 #define LOWER 1
@@ -21,7 +21,7 @@
 #define DAVINCI 4
 
 &mt {
-    tapping-term-ms = <500>;
+    tapping-term-ms = <600>;
 };
 
 / {
