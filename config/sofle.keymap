@@ -21,7 +21,7 @@
 #define DAVINCI 4
 
 &mt {
-    tapping-term-ms = <600>;
+    tapping-term-ms = <500>;
 };
 
 / {
